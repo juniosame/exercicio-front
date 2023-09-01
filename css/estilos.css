@@ -1,6 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Roboto&display=swap');
+
 hr {
-    height: 8px;
-    background-color: red;
+    height: 1px;
+    background-color: grey;
     border: none;
-    border-radius: 5px;
+    margin: 20px;
+ } 
+
+body {
+    background-color: #99CCFF;
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    width: 80%;
+    max-width: 800px;
+    min-height: 500px;
+    margin: auto;
+    text-align: auto;
+    background-color: rgba(0, 0, 0, 0.226);
+    box-shadow: black 0px 0px 15px;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+p a {
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ED344E;
+}
+
+
+
+#top {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 170px;
+    border-radius: 20px 20px 0px 0px;
+    /* background-color: #6495ed; */
+    background: linear-gradient(45deg,#2699d0, #22b8e7);
+    border: solid;
+    border-color: black;
+    border-bottom: none;
+    border-width: 0.8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+footer {
+    text-align: center;
+}
+footer #rodape {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.box {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0px 50px 0px 50px;
+    background-color: white;
+    border: solid 0.5px black;
+    box-shadow: black 2px 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.text-box {
+    word-wrap: break-word;
+    font-size: 16px;
+    width: 90%;
+    color: #3f3f3f;
+}
+
+a {
+
+    font-size: 12px;
+    display: flex;
+    justify-content: right;
+}
+
+div .saiba a {
+    text-decoration: none;
+    color: rgb(58, 60, 102);
+}
+
+div .saiba a:hover {
+    color: #ED344E;
+}
+
+h1 {
+
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+h2, .text-box {
+    font-family: 'Roboto', sans-serif;
+    font-weight:900;
+    font-size: 16px;
+    margin: auto;
+    /*border-radius: 10px 10px 0px 0px;
+    margin: 10px;
+    padding: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: #3ebad3;
+    display: inline-block;
+    text-align: left;
+    margin-top: 5px;*/
+
+}
+
+
+
+/*h2 {
+    margin: 10px;
+    font-size: 20px;
+    border-top: solid 3px;
+    border-bottom: solid 3px;
+    border-left: dashed 3px;
+    border-right: dashed 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    
+}*/
+
+h1 {
+    font-family: 'Goldman', cursive;
+
+}
+
+p,
+li {
+    font-family: Roboto;
 }
